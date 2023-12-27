@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Section</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Navbar Starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">Motion Cut</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#pricing">Pricing<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">Change Currency
+                    </a>
+                    <div class="dropdown-menu">
+                        <a id="inr" class="dropdown-item" href="#"> <img style="height: 18px;" src="./icon/india.png"
+                                alt=""> INR</a>
+                        <a id="usd" class="dropdown-item" href="#"> <img style="height: 18px;"
+                                src="./icon/united-states.png" alt=""> USD</a>
+                        <a id="eur" class="dropdown-item" href="#"> <img style="height: 18px;"
+                                src="./icon/european-union.png" alt=""> EUR</a>
+                        <a id="cad" class="dropdown-item" href="#"> <img style="height: 18px;" src="./icon/canada.png"
+                                alt=""> CAD</a>
+                        <a id="gbp" class="dropdown-item" href="#"> <img style="height: 18px;" src="./icon/UK.png"
+                                alt=""> GBP</a>
+                        <a id="aud" class="dropdown-item" href="#"> <img style="height: 18px;"
+                                src="./icon/australia.png" alt=""> AUD</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <div id="pricing" class="own-container">
+
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="inner-item">
+                    <p class="inner-tittle">Starter Edit</p>
+                    <div class="features">
+                        <p class="features-title">Features :</p>
+                        <div class="features-content">
+                            <ul>
+                                <li>Editing of up to 30 minutes of raw footage</li>
+                                <li>Basic color correction and audio enhancement</li>
+                                <li>Adding simple transitions and text overlays</li>
+                                <li>Output in 720p resolution</li>
+                                <li>2 rounds of revisions</li>
+                            </ul>
+                            <div class="price-div">
+                                <p id="basic" class="price">₹7,500</p>
+                                <p class="price-tag">/video</p>
+                            </div>
+                            <button id="button" type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#staticBackdrop">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="inner-item">
+                    <p class="inner-tittle">Professional Cut</p>
+                    <div class="features">
+                        <p class="features-title">Features :</p>
+                        <div class="features-content">
+                            <ul>
+                                <li>Editing of up to 60 minutes of raw footage</li>
+                                <li>Advanced color grading and audio mastering</li>
+                                <li>Inclusion of graphics, animations, and advanced transitions</li>
+                                <li>Output in 1080p resolution</li>
+                                <li>4 rounds of revisions</li>
+                                <li>Basic motion graphics and visual effects</li>
+                            </ul>
+                            <div class="price-div">
+                                <p id="intermediate" class="price">₹18,750</p>
+                                <p class="price-tag">/video</p>
+                            </div>
+                            <button id="button" type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#staticBackdrop">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="inner-item">
+                    <p class="inner-tittle">Cinematic Masterpiece</p>
+                    <div class="features">
+                        <p class="features-title">Features :</p>
+                        <div class="features-content">
+                            <ul>
+                                <li>Editing of up to 120 minutes of raw footage</li>
+                                <li>Hollywood-grade color grading and audio post-production</li>
+                                <li>In-depth motion graphics, visual effects, and 3D elements</li>
+                                <li>Custom animations and title sequences</li>
+                                <li>Output in 4K resolution</li>
+                                <li>6 rounds of revisions</li>
+                                <li>Advanced storytelling and pacing enhancements</li>
+                            </ul>
+                            <div class="price-div">
+                                <p id="pro" class="price">₹37,500</p>
+                                <p class="price-tag">/video</p>
+                            </div>
+                            <button id="button" type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#staticBackdrop">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div id="model-background" class="modal-content">
+                <div class="modal-header">
+                    <h5 style="color: green; font-weight: bold;" class="modal-title" id="staticBackdropLabel">
+                        Congratulations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    You have purchaced this plan sucessfully
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
